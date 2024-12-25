@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Жабы и Гадюки</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <nav class="relative flex w-full flex-wrap items-center justify-between bg-gradient-to-b from-black to-zinc-10 py-2 shadow-dark-mild dark:bg-neutral-700 lg:py-4">
+          <div class="flex w-full items-center justify-between px-3">
+            <!-- Logo -->
+            <div class="mr-6 flex items-center">
+                <!-- Logo -->
+                <a class="mx-2 my-1 flex items-center lg:mb-0 lg:mt-0" href="#">
+                  <img src="./img/logo.png" style="height: 70px; width: auto;" alt="Logo" />
+                </a>
+                <!-- Shop Name -->
+                <div class="ml-4 text-left">
+                  <p class="text-sm lg:text-base text-green-600">Жабы</p>
+                  <p class="text-sm lg:text-base text-green-300">и</p>
+                  <p class="text-sm lg:text-base text-green-600">Гадюки™</p>
+                </div>
+              </div>
+            
+            <!-- Navbar Links -->
+            <div class="flex items-center space-x-6">
+              <ul class="flex space-x-4 text-center lg:flex-row" id="navbarSupportedContentX" data-twe-collapse-item>
+                <li class="lg:px-2">
+                  <a class="block text-black/60 transition duration-200 hover:text-black/80 dark:text-white/60 dark:hover:text-white/80" href="#about">О нас</a>
+                </li>
+                <li class="lg:px-2">
+                  <a class="block text-black/60 transition duration-200 hover:text-black/80 dark:text-white/60 dark:hover:text-white/80" href="#pets">Питомцы</a>
+                </li>
+                <li class="lg:px-2">
+                  <a class="block text-black/60 transition duration-200 hover:text-black/80 dark:text-white/60 dark:hover:text-white/80" href="#contact">Контакт</a>
+                </li>
+              </ul>
+      
+              <!-- Language Switcher -->
+              <div>
+                <a class="text-sm text-black/60 hover:text-black/80 dark:text-gray-500/60 dark:hover:text-gray-600/80" href="./index.html">
+                  RU
+                </a>
+                <a class="text-sm text-black/60 hover:text-black/80 dark:text-white/60 dark:hover:text-white/80" href="./index-en.html">/EN</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      
+        <!-- Hero Section -->
+        <div class="relative h-[40rem] overflow-hidden bg-[url('./img/hero3.jpg')] bg-cover bg-[50%] bg-no-repeat">
+          <div class="absolute bottom-0 left-0 right-0 top-0 h-full w-full bg-black/60 bg-fixed">
+            <div class="flex h-full items-center justify-center">
+              <div class="px-6 text-center text-white md:px-12">
+                <h1 class="mb-6 text-5xl font-bold tracking-wide" style="font-family: 'Montserrat', serif;">Вы готовы</h1>
+                <h3 class="mb-8 text-3xl font-bold" style="font-family: 'Gabriela', serif;">к экзотическому другу?</h3>
+                <a
+                href="#how"
+                class="inline-block rounded border-2 border-neutral-50 px-6 pb-[6px] pt-2 mt-10 text-xs font-semibold uppercase leading-relaxed text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-300 hover:text-neutral-200 focus:border-neutral-300 focus:text-neutral-200 dark:hover:bg-neutral-600 dark:focus:bg-neutral-600" data-twe-ripple-init
+                data-twe-ripple-color="light">
+                Давайте узнаем!
+              </a>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      
+    <main class="container mx-auto px-4">
+        <div id="about" class="grid grid-cols-1 gap-4 p-8 bg-[#7b9e3a]">
+          <h2 class="text-center text-3xl mb-8" style="font-family: 'Gabriela', serif; font-weight: 600;">О нас</h2>
+            <p class="text-center"><b>Жабы и Гадюки (Toads'n'Snakes)</b> — это компания, специализирующаяся на продаже редких экзотических животных, таких как ящерицы, змеи, черепахи, амфибии и другие удивительные существа. Мы с гордостью предлагаем нашим клиентам уникальных питомцев, которых сложно найти в обычных зоомагазинах. В нашей коллекции вы найдете не только экзотических рептилий, но и удивительных лягушек и аксолотлей, которые станут настоящими украшениями вашего дома. Наши питомцы — это идеальные спутники для любителей экзотики, готовых создать у себя дома настоящий уголок природы.</p>
+            <div class="mt-10"><h2 class="text-center text-3xl mb-8" style="font-family: 'Gabriela', serif; font-weight: 600;">Наша любимая песня</h2>
+            <div class="lg:mx-10">
+              <iframe class="rounded-lg shadow-lg" width="1120" height="630" src="https://www.youtube.com/embed/MxA0QVGVEJw?si=Oe0YsZ49l4vg5OME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <div id="how" class="grid grid-cols-1 gap-4 p-8 bg-[#cce0e0]">
+          <h2 class="text-center text-3xl mb-8" style="font-family: 'Gabriela', serif; font-weight: 600;">Как выбрать питомца?</h2>
+            <p class="text-center">Каждое животное требует особого подхода, и мы рады помочь вам сделать правильный выбор. Мы рекомендуем:</p>
+            <ul class="list-disc">
+                <li class="lg:mx-60"><p>Узнать, какой температурный режим и влажность нужны для содержания вашего питомца.</p></li>
+                <li class="lg:mx-60"><p>Определить размер и тип террариума, аквариума или другого жилья.</p></li>
+                <li class="lg:mx-60"><p>Убедиться, что у вас есть время и желание заботиться о питомце на протяжении всей его жизни.</p></li>
+            </ul>
+            <p class="text-center">Если у вас возникнут вопросы, наши специалисты всегда готовы помочь и поделиться своим опытом.</p>
+        </div>
+        <div id="pets" class="grid grid-cols-1 gap-4 p-8 bg-[#7b9e3a]">
+          <h2 class="text-center text-3xl mb-8" style="font-family: 'Gabriela', serif; font-weight: 600;">Наши Питомцы</h2>
+
+          <div class="container mx-auto pb-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+              <!-- Image 1 -->
+              <div class="overflow-hidden rounded-lg shadow-lg">
+                <img src="./img/1.jpeg" alt="Image 1" class="w-full h-80 object-cover transition-transform duration-300 hover:scale-105">
+              </div>
+              <!-- Image 2 -->
+              <div class="overflow-hidden rounded-lg shadow-lg">
+                <img src="./img/2.jpeg" alt="Image 2" class="w-full h-80 object-cover transition-transform duration-300 hover:scale-105">
+              </div>
+              <!-- Image 3 -->
+              <div class="overflow-hidden rounded-lg shadow-lg">
+                <img src="./img/3.jpeg" alt="Image 3" class="w-full h-80 object-cover transition-transform duration-300 hover:scale-105">
+              </div>
+              <!-- Image 4 -->
+              <div class="overflow-hidden rounded-lg shadow-lg">
+                <img src="./img/4.jpeg" alt="Image 4" class="w-full h-80 object-cover transition-transform duration-300 hover:scale-105">
+              </div>
+              <!-- Image 5 -->
+              <div class="overflow-hidden rounded-lg shadow-lg">
+                <img src="./img/5.jpeg" alt="Image 5" class="w-full h-80 object-cover transition-transform duration-300 hover:scale-105">
+              </div>
+              <!-- Image 6 -->
+              <div class="overflow-hidden rounded-lg shadow-lg">
+                <img src="./img/6.jpeg" alt="Image 6" class="w-full h-80 object-cover transition-transform duration-300 hover:scale-105">
+              </div>
+            </div>
+          </div>
+           <p class="text-center">Мы предлагаем широкий выбор животных, каждое из которых прошло строгий отбор на здоровье и особенности содержания.</p>
+            <p class="text-center">Среди наших предложений:</p>
+            <ul class="list-disc">
+            <li class="lg:mx-60">
+              Рептилии: редкие ящерицы, змеи, хамелеоны, игуаны, драконы и многие другие.</li>
+              <li class="lg:mx-60">Амфибии: аксолотли, лягушки, тритоны и другие удивительные существа.</li>
+              <li class="lg:mx-60">Черепахи: различные виды экзотических черепах, как сухопутных, так и водных.</li>
+            </ul>
+              <p class="text-center">
+              Все наши питомцы происходят из проверенных источников и прошли тщательную подготовку к продаже.</p>
+        </div>
+        <div id="why" class="grid grid-cols-1 gap-4 p-8 bg-[#cce0e0]"> <h2 class="text-center text-3xl mb-8" style="font-family: 'Gabriela', serif; font-weight: 600;">Почему мы?</h2>
+          <p class="text-center"><b>Качество и забота.</b> Мы придаем особое значение здоровью и благополучию животных. Каждый питомец находится в заботливых руках наших специалистов, которые обеспечивают комфортные условия для его жизни.</p>
+          <p class="text-center"><b>Образование и поддержка.</b> Мы не только продаем животных, но и предоставляем нашим клиентам все необходимые знания для правильного ухода за питомцами. Мы предлагаем консультации по содержанию, питанию и воспитанию ваших новых друзей.</p>
+          <p class="text-center"><b>Доставка.</b> Мы осуществляем безопасную доставку по всей России и Европе. Ваш питомец будет доставлен в надежных условиях и вовремя.</p>
+        </div>
+        <div id="contact" class="grid grid-cols-1 gap-4 p-8 bg-[#7b9e3a]"> <h2 class="text-center text-3xl mb-8" style="font-family: 'Gabriela', serif; font-weight: 600;">Контакт</h2>
+          <div class="flex gap-20 mx-10 rounded-lg shadow-lg"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1991.7987051051596!2d30.35783619383454!3d60.051564410439745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469634ba5bd799ad%3A0xc6aaeb4084d5477d!2z0KHQuNGA0LXQvdC10LLRi9C5INCx0YPQuy4sIDE1LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0KDQvtGB0YHQuNGPLCAxOTQzNTI!5e0!3m2!1sru!2sde!4v1735129128693!5m2!1sru!2sde" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div><p>Адрес: Санкт-Петербург, Сиреневый бульвар, д.15</p>
+            <p>Телефон: <a href="tel:+499111234567">+49 (911) 123 45 67</a></p>
+            <p>Email: <a href="mailto:info@toadsnsnakes.ru">info@toadsnsnakes.ru</a></p>
+            <p>Часы работы: Пн-Пт: 10:00 - 18:00, Сб-Вс: 11:00 - 16:00</p>
+          </div>
+          </div>
+        </div>
+    </main>
+    <footer class="relative flex w-full flex-wrap items-center justify-between bg-gradient-to-b from-black to-zinc-900 py-6 shadow-dark-mild dark:bg-neutral-700">
+      <div class="flex w-full flex-wrap justify-between px-3">
+        <!-- Logo and Shop Name -->
+        <div class="flex items-center mb-4 lg:ml-6 lg:mb-0">
+          <a href="#" class="flex items-center">
+            <img src="./img/logo.png" style="height: 50px; width: auto;" alt="Logo" />
+          </a>
+          <div class="ml-4 text-left">
+            <p class="text-sm lg:text-base text-green-600">Жабы</p>
+            <p class="text-sm lg:text-base text-green-300">и</p>
+            <p class="text-sm lg:text-base text-green-600">Гадюки™</p>
+          </div>
+        </div>
+    
+        <!-- Site Map -->
+        <div class="mb-4 lg:mb-0">
+          <ul class="flex flex-col space-y-2 lg:flex-row lg:space-y-0 lg:space-x-6">
+            <li><a class="text-gray-400 hover:text-gray-200" href="#about">О нас</a></li>
+            <li><a class="text-gray-400 hover:text-gray-200" href="#how">Как выбрать питомца?</a></li>
+            <li><a class="text-gray-400 hover:text-gray-200" href="#pets">Наши питомцы</a></li>
+            <li><a class="text-gray-400 hover:text-gray-200" href="#why">Почему мы?</a></li>
+            <li><a class="text-gray-400 hover:text-gray-200" href="#contact">Контакт</a></li>
+          </ul>
+        </div>
+        <!-- Social Media Links -->
+        <div class="flex space-x-4">
+          <a href="#" class="text-gray-400 hover:text-gray-200"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-gray-400 hover:text-gray-200"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-gray-400 hover:text-gray-200"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    
+      <!-- Footer Bottom -->
+      <div class="mt-6 w-full text-center text-gray-400 text-sm">
+        © 2024 Жабы и Гадюки™. Учебный проект, все совпадения случайны.
+      </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toads'n'Snakes</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white">
+    <header>
+        <nav class="relative flex w-full flex-wrap items-center justify-between bg-gradient-to-b from-black to-zinc-10 py-2 shadow-dark-mild dark:bg-neutral-700 lg:py-4">
+          <div class="flex w-full items-center justify-between px-3">
+            <!-- Logo -->
+            <div class="mr-6 flex items-center">
+                <!-- Logo -->
+                <a class="mx-2 my-1 flex items-center lg:mb-0 lg:mt-0" href="#">
+                  <img src="./img/logo.png" style="height: 70px" alt="Logo" />
+                </a>
+                <!-- Shop Name -->
+                <div class="ml-4 text-left">
+                  <p class="text-sm lg:text-base text-green-500">Toads</p>
+                  <p class="text-sm lg:text-base text-green-500">N</p>
+                  <p class="text-sm lg:text-base text-green-500">Snakes</p>
+                </div>
+              </div>
+            
+            <!-- Navbar Links -->
+            <div class="flex items-center space-x-6">
+              <ul class="flex space-x-4 text-center lg:flex-row" id="navbarSupportedContentX" data-twe-collapse-item>
+                <li class="lg:px-2">
+                  <a class="block text-black/60 transition duration-200 hover:text-black/80 dark:text-white/60 dark:hover:text-white/80" href="#about">About</a>
+                </li>
+                <li class="lg:px-2">
+                  <a class="block text-black/60 transition duration-200 hover:text-black/80 dark:text-white/60 dark:hover:text-white/80" href="#pets">Pets</a>
+                </li>
+                <li class="lg:px-2">
+                  <a class="block text-black/60 transition duration-200 hover:text-black/80 dark:text-white/60 dark:hover:text-white/80" href="#contact">Contact Us</a>
+                </li>
+              </ul>
+      
+              <!-- Language Switcher -->
+              <div>
+                <a class="text-sm text-black/60 hover:text-black/80 dark:text-gray-500/60 dark:hover:text-gray-600/80" href="./index-en.html">
+                  EN
+                </a>
+                <a class="text-sm text-black/60 hover:text-black/80 dark:text-white/60 dark:hover:text-white/80" href="./index.html">/RU</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      
+        <!-- Hero Section -->
+        <div class="relative h-[40rem] overflow-hidden bg-[url('./img/hero3.jpg')] bg-cover bg-[50%] bg-no-repeat">
+          <div class="absolute bottom-0 left-0 right-0 top-0 h-full w-full bg-black/60 bg-fixed">
+            <div class="flex h-full items-center justify-center">
+              <div class="px-6 text-center text-white md:px-12">
+                <h1 class="mb-6 text-5xl font-bold">Are you ready</h1>
+                <h3 class="mb-8 text-3xl font-bold" style="font-family: 'Gabriela', serif;">for an exotic friend?</h3>
+                <a
+                href="#how"
+                class="inline-block rounded border-2 border-neutral-50 px-6 pb-[6px] pt-2 mt-10 text-xs font-semibold uppercase leading-relaxed text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-300 hover:text-neutral-200 focus:border-neutral-300 focus:text-neutral-200 dark:hover:bg-neutral-600 dark:focus:bg-neutral-600" data-twe-ripple-init
+                data-twe-ripple-color="light">
+                Let's find out!
+              </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      
+      <main class="container mx-auto px-4">
+        <div id="about" class="grid grid-cols-1 gap-4 p-8 bg-[#7b9e3a]">
+            <h2 class="text-center text-3xl mb-8" style="font-family: 'Gabriela', serif; font-weight: 600;">About Us</h2>
+            <p class="text-center"><b>Toads'n'Snakes</b> is a company specializing in the sale of rare exotic animals such as lizards, snakes, turtles, amphibians, and other fascinating creatures. We proudly offer our customers unique pets that are hard to find in regular pet stores. In our collection, you’ll find not only exotic reptiles but also stunning frogs and axolotls that will become the true highlights of your home. Our pets are ideal companions for exotic lovers ready to create a small corner of nature at home.</p>
+            <div class="mt-10">
+                <h2 class="text-center text-3xl mb-8" style="font-family: 'Gabriela', serif; font-weight: 600;">Our Favorite Song</h2>
+                <div class="lg:mx-10">
+                    <iframe class="rounded-lg shadow-lg" width="1120" height="630" src="https://www.youtube.com/embed/MxA0QVGVEJw?si=Oe0YsZ49l4vg5OME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div id="how" class="grid grid-cols-1 gap-4 p-8 bg-[#cce0e0]">
+            <h2 class="text-center text-3xl mb-8" style="font-family: 'Gabriela', serif; font-weight: 600;">How to Choose a Pet?</h2>
+            <p class="text-center">Every animal requires a unique approach, and we’re happy to help you make the right choice. We recommend:</p>
+            <ul class="list-disc">
+                <li class="lg:mx-60"><p>Learning about the temperature and humidity levels needed for your pet.</p></li>
+                <li class="lg:mx-60"><p>Determining the size and type of terrarium, aquarium, or other habitat.</p></li>
+                <li class="lg:mx-60"><p>Ensuring you have the time and willingness to care for the pet throughout its life.</p></li>
+            </ul>
+            <p class="text-center">If you have any questions, our specialists are always ready to help and share their expertise.</p>
+        </div>
+        <div id="pets" class="grid grid-cols-1 gap-4 p-8 bg-[#7b9e3a]">
+            <h2 class="text-center text-3xl mb-8" style="font-family: 'Gabriela', serif; font-weight: 600;">Our Pets</h2>
+            <div class="container mx-auto pb-8">
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                    <!-- Image 1 -->
+                    <div class="overflow-hidden rounded-lg shadow-lg">
+                        <img src="./img/1.jpeg" alt="Image 1" class="w-full h-80 object-cover transition-transform duration-300 hover:scale-105">
+                    </div>
+                    <!-- Image 2 -->
+                    <div class="overflow-hidden rounded-lg shadow-lg">
+                        <img src="./img/2.jpeg" alt="Image 2" class="w-full h-80 object-cover transition-transform duration-300 hover:scale-105">
+                    </div>
+                    <!-- Image 3 -->
+                    <div class="overflow-hidden rounded-lg shadow-lg">
+                        <img src="./img/3.jpeg" alt="Image 3" class="w-full h-80 object-cover transition-transform duration-300 hover:scale-105">
+                    </div>
+                    <!-- Image 4 -->
+                    <div class="overflow-hidden rounded-lg shadow-lg">
+                        <img src="./img/4.jpeg" alt="Image 4" class="w-full h-80 object-cover transition-transform duration-300 hover:scale-105">
+                    </div>
+                    <!-- Image 5 -->
+                    <div class="overflow-hidden rounded-lg shadow-lg">
+                        <img src="./img/5.jpeg" alt="Image 5" class="w-full h-80 object-cover transition-transform duration-300 hover:scale-105">
+                    </div>
+                    <!-- Image 6 -->
+                    <div class="overflow-hidden rounded-lg shadow-lg">
+                        <img src="./img/6.jpeg" alt="Image 6" class="w-full h-80 object-cover transition-transform duration-300 hover:scale-105">
+                    </div>
+                </div>
+            </div>
+            <p class="text-center">We offer a wide variety of animals, each carefully selected for health and specific care needs.</p>
+            <p class="text-center">Among our offerings:</p>
+            <ul class="list-disc">
+                <li class="lg:mx-60">Reptiles: rare lizards, snakes, chameleons, iguanas, dragons, and many others.</li>
+                <li class="lg:mx-60">Amphibians: axolotls, frogs, newts, and other fascinating creatures.</li>
+                <li class="lg:mx-60">Turtles: various species of exotic land and aquatic turtles.</li>
+            </ul>
+            <p class="text-center">All our pets come from verified sources and have been thoroughly prepared for sale.</p>
+        </div>
+        <div id="why" class="grid grid-cols-1 gap-4 p-8 bg-[#cce0e0]">
+            <h2 class="text-center text-3xl mb-8" style="font-family: 'Gabriela', serif; font-weight: 600;">Why Choose Us?</h2>
+            <p class="text-center"><b>Quality and Care.</b> We place special importance on the health and well-being of our animals. Every pet is in the caring hands of our specialists, ensuring comfortable living conditions.</p>
+            <p class="text-center"><b>Education and Support.</b> We not only sell animals but also provide our customers with all the necessary knowledge for proper pet care. We offer consultations on housing, feeding, and training your new friends.</p>
+            <p class="text-center"><b>Delivery.</b> We provide safe delivery throughout Russia and Europe. Your pet will arrive in secure conditions and on time.</p>
+        </div>
+        <div id="contact" class="grid grid-cols-1 gap-4 p-8 bg-[#7b9e3a]">
+            <h2 class="text-center text-3xl mb-8" style="font-family: 'Gabriela', serif; font-weight: 600;">Contact</h2>
+            <div class="flex gap-20 mx-10 rounded-lg shadow-lg">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1991.7987051051596!2d30.35783619383454!3d60.051564410439745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469634ba5bd799ad%3A0xc6aaeb4084d5477d!2z0KHQuNGA0LXQvdC10LLRi9C5INCx0YPQuy4sIDE1LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0KDQvtGB0YHQuNGPLCAxOTQzNTI!5e0!3m2!1sru!2sde!4v1735129128693!5m2!1sru!2sde" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-cross-origin"></iframe>
+                <div>
+                    <p>Address: Saint Petersburg, Sirenevy Boulevard, 15</p>
+                    <p>Phone: <a href="tel:+499111234567">+49 (911) 123 45 67</a></p>
+                    <p>Email: <a href="mailto:info@toadsnsnakes.ru">info@toadsnsnakes.ru</a></p>
+                    <p>Business Hours: Mon-Fri: 10:00 - 18:00, Sat-Sun: 11:00 - 16:00</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="relative flex w-full flex-wrap items-center justify-between bg-gradient-to-b from-black to-zinc-900 py-6 shadow-dark-mild dark:bg-neutral-700">
+      <div class="flex w-full flex-wrap justify-between px-3">
+        <!-- Logo and Shop Name -->
+        <div class="flex items-center mb-4 lg:ml-6 lg:mb-0">
+          <a href="#" class="flex items-center">
+            <img src="./img/logo.png" style="height: 50px; width: auto;" alt="Logo" />
+          </a>
+          <div class="ml-4 text-left">
+            <p class="text-sm lg:text-base text-green-600">Toads</p>
+            <p class="text-sm lg:text-base text-green-300">N</p>
+            <p class="text-sm lg:text-base text-green-600">Snakes™</p>
+          </div>
+        </div>
+    
+        <!-- Site Map -->
+        <div class="mb-4 lg:mb-0">
+          <ul class="flex flex-col space-y-2 lg:flex-row lg:space-y-0 lg:space-x-6">
+            <li><a class="text-gray-400 hover:text-gray-200" href="#about">About Us</a></li>
+            <li><a class="text-gray-400 hover:text-gray-200" href="#how">How to Choose a Pet?</a></li>
+            <li><a class="text-gray-400 hover:text-gray-200" href="#pets">Our Pets</a></li>
+            <li><a class="text-gray-400 hover:text-gray-200" href="#why">Why Choose Us?</a></li>
+            <li><a class="text-gray-400 hover:text-gray-200" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <!-- Social Media Links -->
+        <div class="flex space-x-4">
+          <a href="#" class="text-gray-400 hover:text-gray-200"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-gray-400 hover:text-gray-200"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-gray-400 hover:text-gray-200"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    
+      <!-- Footer Bottom -->
+      <div class="mt-6 w-full text-center text-gray-400 text-sm">
+        © 2024 Toads'n'Snakes. This is a student project.
+      </div>
+    </footer> 
+</body>
+</html>
